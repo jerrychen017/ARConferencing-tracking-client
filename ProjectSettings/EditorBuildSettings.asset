@@ -6,8 +6,16 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/HumanBodyTracking3D.unity
+    path: Assets/Scenes/Launcher.unity
+    guid: f9c4efa7a15134deabb028df505da03d
+  - enabled: 1
+    path: Assets/Scenes/Tracking Client.unity
     guid: f4b87117541714d009201dc7d74a9dbd
+  - enabled: 1
+    path: Assets/Scenes/Viewer Client.unity
+    guid: 9fc0d4010bbf28b4594072e72b8655ab
   m_configObjects:
-    UnityEditor.XR.ARKit.ARKitSettings: {fileID: 11400000, guid: f0df914aa9f9a4c83ac33d30bd4a2f81, type: 2}
-    com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 198ca2abf3d1f4f979a3165033aec161, type: 2}
+    UnityEditor.XR.ARKit.ARKitSettings: {fileID: 11400000, guid: 98c79e8cc22674a89a95a3a90e2b70cb,
+      type: 2}
+    com.unity.xr.management.loader_settings: {fileID: 11400000, guid: e2f869774b12e400996eb546603602e3,
+      type: 2}

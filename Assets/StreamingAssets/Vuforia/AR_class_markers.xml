@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QCARConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="qcar_config.xsd">
+  <Tracking>
+    <ImageTarget name="jhu" size="0.111500 0.154874" />
+    <ImageTarget name="pattern" size="0.189000 0.189000" />
+    <ImageTarget name="marker-0" size="0.188500 0.188500" />
+  </Tracking>
+</QCARConfig>
