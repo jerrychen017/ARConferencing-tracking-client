@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using Photon.Pun;
 using Photon.Realtime;
+using UnityEngine.SceneManagement;
 
 namespace Com.ARConferencing.Client
 {
@@ -167,9 +168,9 @@ namespace Com.ARConferencing.Client
                 // #Critical
                 // Load the Room Level.
                 if (isTracking) {
-                    PhotonNetwork.LoadLevel("Tracking Client");
+                    PhotonNetwork.LoadLevel(1);
                 } else {
-                    PhotonNetwork.LoadLevel("Viewer Client");
+                    PhotonNetwork.LoadLevel(2);
                 }
                 
             }
